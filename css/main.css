@@ -1,10 +1,71 @@
 html,body{
     margin:0;
 }
-#landing-wrapper{
+:root {
+    --primary-color:#2C4251;
+    --secondary-color:#177E89;
+    --yellow:#E8C547;
+    --gunmetal:#30323D;
+}
+/*Start nav*/
+#page-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #177E89;
+}
+.page-nav-name{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.75em;
+    font-weight: 800;
+    color: var(--secondary-color);
+    background-color: var(--gunmetal);
+    margin: 0;
+    padding: 4vh 0;
+}
+.lading-page-nav{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.landing-nav-item{
+    text-align: center;
+    padding: 1.5em 0;
+    font-size: 1.75em;
+    font-weight: 800;
+    color: lightgrey;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+}
+.landing-nav-item:hover{
+    background-color:var(--gunmetal);
+    color:var(--secondary-color);
+    border-bottom: 2px solid var(--gunmetal);
+}
+#selected-landing-nav-item{
+    border-bottom: 2px solid var(--yellow);
+    color: var(--yellow);
+}
+.first-nav-item:hover{
+    border-top: 2px solid lightgrey;
+}
+/*End nav*/
+
+/*Start landing page*/
+#landing{
     height:100%;
-    width:100%;
-    background-color:#212121;
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    background-color: 2C4251;
     text-align: center;
 }
 #landing-name{
@@ -14,6 +75,7 @@ html,body{
     position: absolute;
     width: 100%;
     top: 23%;
+    letter-spacing: 2px;
 }
 .contact-wrapper{
     position: absolute;
@@ -28,3 +90,10 @@ html,body{
     width: 80px;
     cursor:pointer;
 }
+/*End landing page*/
+/*Start projects page*/
+#projects{
+    height:100%;
+    width:20%;
+}
+/*End projects page*/

@@ -94,6 +94,38 @@ html,body{
 /*Start projects page*/
 #projects{
     height:100%;
-    width:20%;
+    width:80%;
+    background-color:var(--primary-color);
+}
+.project-preview-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#project-1{
+    width: 60%;
+    height: 48%;
+    border-bottom: 8px solid #187e89;
+    border-top: 8px solid #187e89;
+    display:inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#project-2{
+    display: inline-block;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 52%;
+    position: absolute;
+    border-top: 8px solid #187e89;
+    border-left: 8px solid #187e89;
+    border-bottom: 8px solid #187e89;
+}
+.project-preview{
+    width:100%;
+    height:100%;
+    cursor:pointer;
 }
 /*End projects page*/

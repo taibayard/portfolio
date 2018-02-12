@@ -51,11 +51,10 @@ html,body{
     border-bottom: 2px solid var(--gunmetal);
 }
 #selected-landing-nav-item{
-    border-bottom: 2px solid var(--yellow);
     color: var(--yellow);
 }
 .first-nav-item:hover{
-    border-top: 2px solid lightgrey;
+    border-top: 2px solid var(--primary-color);
 }
 /*End nav*/
 

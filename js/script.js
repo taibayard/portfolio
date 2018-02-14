@@ -10,21 +10,21 @@ function setProjectInfo(index){
     const projectInfo = [
         {
             title:"CryptoApp",
-            desc:"a realtime cryptocurrency alert app",
-            tech:"PostgreSQL, Html, Css, Javascript, Sequelize, Node.Js, and Express",
-            gifUrl:"http://test.com"
+            desc:"a realtime cryptocurrency alert app that sends you text alerts. Alerts are sent based on changes in the crypto currency market and the user's preferences.",
+            tech:"PostgreSQL  |  Html  |  Css  |  Javascript  |  Sequelize  |  Node.Js  |  Express",
+            gifUrl:"https://thumbs.gfycat.com/CavernousRepulsiveHammerheadbird-size_restricted.gif"
         },
         {
             title:"2048",
-            desc:"a replication of the popular game '2048'",
-            tech:"Html,Css, Javascript",
-            gifUrl:"http://test.com"
+            desc:"This was a attempt at replicating the popular game '2048' using only frontent languages.",
+            tech:"HTML  |  CSS  |  Javascript",
+            gifUrl:"https://thumbs.gfycat.com/BaggyFabulousAfricangoldencat-size_restricted.gif"
         },
         {
             title:"Chomper",
-            desc:"a 1 week meal planning app",
-            tech:"MongoDB, Mongoose,React, Html, Css, Javascript, Node.Js, and Express",
-            gifUrl:"http://test.com"
+            desc:"This was a group project built using the MERN stack. Our goal was to create a mobile first app that will create 1 week meal plans for our users based on their preferences.",
+            tech:"MongoDB  |  Mongoose  |  React  |  HTML  |  CSS  |  Javascript  |  Node.Js  |  Express",
+            gifUrl:"https://thumbs.gfycat.com/FrankMealyIbex-size_restricted.gif"
         },
         {
             title:"Project 4",

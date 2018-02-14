@@ -16,7 +16,7 @@ function setProjectInfo(index){
         },
         {
             title:"2048",
-            desc:"This was a attempt at replicating the popular game '2048' using only frontent languages.",
+            desc:"This was a attempt at replicating the popular game '2048' using only frontend languages.",
             tech:"HTML  |  CSS  |  Javascript",
             gifUrl:"https://thumbs.gfycat.com/BaggyFabulousAfricangoldencat-size_restricted.gif"
         },

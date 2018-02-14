@@ -2,19 +2,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Tai Helsel</title>
 </head>
 <body>
     <nav id="page-nav">
         <h1 class="page-nav-name">Tai Helsel</h1>
-        <ul class="lading-page-nav">
-            <li><a id="selected-landing-nav-item" class="first-nav-item landing-nav-item" href="#landing">Landing Page</a></li>
-            <li><a class="landing-nav-item" href="#projects">Projects</a></li>
-            <li><a class="landing-nav-item" href="#projects">Resume</a></li>
-            <li><a class="landing-nav-item" href="#projects">Contact</a></li>
+        <ul class="page-nav">
+            <li><a id="selected-nav-item" class="first-nav-item nav-item" href="#landing">Landing Page</a></li>
+            <li><a class="nav-item" href="#projects">Projects</a></li>
+            <li><a class="nav-item" href="#projects">Resume</a></li>
+            <li><a class="nav-item" href="#projects">Contact</a></li>
         </ul>
+        <div id="project-desc">
+            <h2  class="project-desc-label" id="project-desc-title">Project Title</h2>
+            <img id="project-desc-img" src="https://media1.giphy.com/media/xULW8lV6w4hbkVOJzi/giphy.gif" alt="Project Gif Preview">
+            <h3 class="project-desc-label">Overview</h3>
+            <p id="project-desc-summary">This was a project i made over the course of 2 weeks. it sends data to data</p>
+            <h3 class="project-desc-label">Tech Used</h3>
+            <p id="project-desc-tech">Html,Css,Javascript,React,Sequelize,Mongo,Express</p>
+        </div>
     </nav>
     <div id="landing">
         <h1 id="landing-name">Tai Helsel</h1>
@@ -33,17 +41,17 @@
     <!--End Landing Page -->
     <div id="projects">
         <div class="project-preview-wrapper">
-            <div id="project-1">
-                <img src="images/projects/cryptoapp.png" alt="Project Preview Image" class="project-preview">
+            <div class="project-preview" id="project-1">
+                <img src="images/projects/cryptoapp.png" alt="Project Preview Image" class="project-preview-image">
             </div>
-            <div id="project-2">
-                <img src="images/projects/2048.png" alt="Project preview image" class="project-preview">
+            <div class="project-preview" id="project-2">
+                <img src="images/projects/2048.png" alt="Project preview image" class="project-preview-image">
             </div>
-            <div id="project-3">
-                <img src="images/projects/chomper.png" alt="Project preview image" class="project-preview">
+            <div class="project-preview" id="project-3">
+                <img src="images/projects/chomper.png" alt="Project preview image" class="project-preview-image">
             </div>
-            <div id="project-4">
-                <img src="images/projects/tbd.png" alt="Project preview image" class="project-preview">
+            <div class="project-preview" id="project-4">
+                <img src="images/projects/tbd.png" alt="Project preview image" class="project-preview-image">
             </div>
     </div>
 </body>

@@ -11,7 +11,7 @@ function setProjectInfo(index){
         {
             title:"CryptoApp",
             desc:"a realtime cryptocurrency alert app that sends you text alerts. Alerts are sent based on changes in the crypto currency market and the user's preferences.",
-            tech:"PostgreSQL  |  Html  |  Css  |  Javascript  |  Sequelize  |  Node.Js  |  Express",
+            tech:"PostgreSQL  |  HTML  |  CSS  |  Javascript  |  Sequelize  |  Node.Js  |  Express",
             gifUrl:"https://thumbs.gfycat.com/CavernousRepulsiveHammerheadbird-size_restricted.gif"
         },
         {
@@ -54,16 +54,12 @@ function addListeners(){
     x = document.getElementsByClassName("project-preview");
     for(let i=0;i<x.length;i++){
         x[i].addEventListener("mouseover",function(){
-            /*
-                Todo:
-                []-Display data relating to the current project being hovered in the navbar
-                []-Display buttons over item being hovered
-                    ( View on github & Live site )
-            */
+            this.getElementsByClassName("project-mask")[0].style.display = "block";
            setProjectInfo(i);
         });
 
         x[i].addEventListener("mouseout",function(){
+            this.getElementsByClassName("project-mask")[0].style.display = "none";
             resetNavDisplay();
         })
     }

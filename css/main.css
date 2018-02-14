@@ -174,4 +174,44 @@ html,body{
     height:100%;
     cursor:pointer;
 }
+.project-mask{
+    width: 100%;
+    height: 100%;
+    background-color: #30323db5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display:none;
+}
+.project-git-btn{
+    display: inline-block;
+    border: 2px solid;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    padding: 1vw 2vw;
+    background-color: var(--gunmetal);
+    color: #e4dada;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.project-site-btn{
+    display: inline-block;
+    border: 2px solid;
+    position: absolute;
+    top: 35%;
+    right: 19%;
+    padding: 1vw 2vw;
+    background-color: var(--gunmetal);
+    color: #e4dada;
+    cursor: pointer;
+}
+.project-site-btn a,.project-git-btn a{
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #e4dada;
+    font-family: 'Roboto', sans-serif;
+}
 /*End projects page*/

@@ -43,12 +43,14 @@ function addListeners(){
     //adding event listeners to nav items
     let x = document.getElementsByClassName("nav-item");
     for(let i=0;i<x.length;i++){
-        x[i].addEventListener("click",function(){
-            if(this.getAttribute("id")!=="selected-nav-item"){
-                document.getElementById("selected-nav-item").removeAttribute("id");
-                this.setAttribute("id","selected-nav-item");
-            }
-        });
+        if(x[i].innerText !== "Resume"){
+            x[i].addEventListener("click",function(){
+                if(this.getAttribute("id")!=="selected-nav-item"){
+                    document.getElementById("selected-nav-item").removeAttribute("id");
+                    this.setAttribute("id","selected-nav-item");
+                }
+            });
+        }
     }
     //adding event listeners for project preview
     x = document.getElementsByClassName("project-preview");

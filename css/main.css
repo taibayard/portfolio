@@ -1,5 +1,6 @@
 html,body{
     margin:0;
+    background-color: var(--primary-color);
 }
 :root {
     --primary-color:#2C4251;
@@ -215,3 +216,11 @@ html,body{
     font-family: 'Roboto', sans-serif;
 }
 /*End projects page*/
+/*Start about page*/
+#about{
+    height:100%;
+    width:100%;
+    background-color:var(--primary-color);
+    position: relative;
+}
+/*End about page*/

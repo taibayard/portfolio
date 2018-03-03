@@ -141,6 +141,7 @@ html,body{
     height: auto;
     width:80%;
     background-color:var(--primary-color);
+    text-align: center;
 }
 .project-preview-wrapper{
     width: 98%;
@@ -232,11 +233,12 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{height: 100%;width: 100%;position: relative;}
+.project-highlight-wrapper{height: 100%;width: 95%;position: relative;display: inline-block;}
 .project-highlight{
-    background-color: #968f8f4a;
-    height: 80%;
+    background-color: #968f8f1f;
+    height: 49vw;
     text-align: center;
+    position: relative;
 }
 .highlight-name{
     color: var(--yellow);
@@ -258,20 +260,35 @@ html,body{
     padding:0;
     margin:0;
     display: inline-block;
-    width: 45%;
+    width: 46%;
     position: absolute;
-    right: 4%;
-    top: 18%;
+    left: 6%;
+    bottom: 4%;
     text-align: left;
 }
 .highlight-tech-item{
     display: inline-block;
     width: 7vw;
     height: 7vw;
+    margin-bottom: 3%;
+    margin-right: 3%;
 }
 .highlight-tech-icon{
     width: 100%;
     height: 100%;
+}
+/*used for converting box icon to circle*/
+.highlight-tech-box-icon{
+    border-radius:5em;
+    width: 82%;
+    height: 82%;
+    padding: 10%;
+}
+/*Used for keeping box shape on icon*/
+.highlight-tech-icon-box{
+    width: 82%;
+    height: 82%;
+    padding: 10%;
 }
 /*End projects page*/
 /*Start about page*/

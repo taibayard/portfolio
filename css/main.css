@@ -142,6 +142,7 @@ html,body{
     width:80%;
     background-color:var(--primary-color);
     text-align: center;
+    padding-top: 2em;
 }
 .project-preview-wrapper{
     width: 98%;

@@ -121,7 +121,7 @@ html,body{
 /*End landing page*/
 /*Start projects page*/
 #projects{
-    height:100%;
+    height: auto;
     width:80%;
     background-color:var(--primary-color);
 }
@@ -215,14 +215,10 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{
-
-}
-.project-highlight{
-
-}
+.project-highlight-wrapper{height: 100%;width: 100%;position: relative;}
+.project-highlight{background-color: white;height: 49%;}
 .highlight-name{
-    
+    color: white;
 }
 /*End projects page*/
 /*Start about page*/

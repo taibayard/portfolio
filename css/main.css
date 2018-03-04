@@ -365,4 +365,8 @@ html,body{
         font-weight: 600;
         width: 44%;
     }
+    .contact-icon-wrapper{
+        width: 9vmax;
+        height: 9vmax;
+    }
 }

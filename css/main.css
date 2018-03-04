@@ -266,9 +266,9 @@ html,body{
     display: inline-block;
     width: 50%;
     position: absolute;
-    right: 2%;
+    right: 0;
     bottom: 6%;
-    text-align: right;
+    text-align: center;
 }
 .highlight-tech-item{
     display: inline-block;

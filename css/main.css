@@ -233,7 +233,7 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{height: 130vmax;width: 95%;position: relative;display: inline-block;}
+.project-highlight-wrapper{height: 189vmax;width: 95%;position: relative;display: inline-block;}
 .project-highlight{
     background-color: #968f8f1f;
     height: 49vmax;
@@ -278,6 +278,17 @@ html,body{
     position: absolute;
     right: 0;
     bottom: 6%;
+    text-align: center;
+}
+.highlight-frontend-tech-wrapper{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 13%;
     text-align: center;
 }
 .highlight-tech-item{

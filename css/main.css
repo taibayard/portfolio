@@ -256,8 +256,9 @@ html,body{
     width: 45%;
     position: absolute;
     left: 4%;
-    top: 18%;
+    top: 27%;
     border-radius: 6px;
+    height: 21vmax;
 }
 .highlight-tech-wrapper{
     list-style: none;
@@ -267,7 +268,7 @@ html,body{
     width: 50%;
     position: absolute;
     right: 2%;
-    bottom: 4%;
+    bottom: 6%;
     text-align: right;
 }
 .highlight-tech-item{
@@ -302,7 +303,7 @@ html,body{
     padding:0;
     list-style:none;
     position: absolute;
-    bottom: 22%;
+    bottom: 11%;
     width:45%;
     left: 3.5%;
 }

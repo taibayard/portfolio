@@ -63,7 +63,7 @@ html,body{
 .nav-item{
     text-align: center;
     padding: 1.5em 0;
-    font-size: 1.75em;
+    font-size: 3vmax;
     font-weight: 800;
     color: lightgrey;
     cursor: pointer;
@@ -72,7 +72,6 @@ html,body{
     width: 100%;
     display: block;
     text-decoration: none;
-    
 }
 .nav-item:hover{
     background-color:var(--gunmetal);
@@ -298,6 +297,29 @@ html,body{
 .highlight-summary-wrapper{width: 42%;display: inline-block;position: absolute;top: 18%;right: 4%;}
 .highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 19vw;display: inline-block;font-size: 1.8vmax;}
 .highlight-summary-text{color: lightgrey;font-family: 'Roboto', sans-serif;letter-spacing: 1.2px;font-size: 1.5vmax;}
+.highlight-links-wrapper{
+    margin:0;
+    padding:0;
+    list-style:none;
+    position: absolute;
+    bottom: 22%;
+    width:45%;
+    left: 3.5%;
+}
+.highlight-links-item{
+    display:inline-block;
+    padding: 1vmax;
+    background-color: var(--gunmetal);
+    border-radius: 4px;
+    margin: 1vmax 1vmax;
+}
+.highlight-links-link{
+    color: lightgrey;
+    text-decoration: none;
+    font-size: 2vmax;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.2px;
+}
 /*End projects page*/
 /*Start about page*/
 #about{

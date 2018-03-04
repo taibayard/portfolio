@@ -309,9 +309,10 @@ html,body{
 .highlight-links-item{
     display:inline-block;
     padding: 1vmax;
-    background-color: var(--gunmetal);
+    background-color: var(--primary-color);
     border-radius: 4px;
     margin: 1vmax 1vmax;
+    font-weight: 600;
 }
 .highlight-links-link{
     color: lightgrey;

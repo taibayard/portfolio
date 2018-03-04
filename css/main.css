@@ -233,7 +233,7 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{height: 52vmax;width: 95%;position: relative;display: inline-block;}
+.project-highlight-wrapper{height: 130vmax;width: 95%;position: relative;display: inline-block;}
 .project-highlight{
     background-color: #968f8f1f;
     height: 49vmax;
@@ -241,6 +241,8 @@ html,body{
     text-align: center;
     position: relative;
     border-radius: 3px;
+    margin-bottom: 13vmax;
+    margin-top: 13vmax;
 }
 .highlight-name{
     color: var(--yellow);
@@ -250,6 +252,14 @@ html,body{
     display:inline-block;
     width: 100%;
     font-size: 2.2vmax;
+}
+.highlight-img-mobile{
+    width: 22%;
+    position: absolute;
+    left: 14%;
+    top: 19%;
+    border-radius: 6px;
+    height: 26vmax;
 }
 .highlight-img{
     width: 45%;

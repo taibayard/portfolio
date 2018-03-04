@@ -350,6 +350,12 @@ html,body{
     background-color:var(--primary-color);
     position: relative;
 }
+.about-headshot{
+    border-radius:15em;
+    position: absolute;
+    left: 6vmax;
+    top: 6vmax;
+}
 /*End about page*/
 
 /*Mobile stuff*/

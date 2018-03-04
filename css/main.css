@@ -307,11 +307,11 @@ html,body{
     left: 3.5%;
 }
 .highlight-links-item{
-    display:inline-block;
+    display: inline-block;
     padding: 1vmax;
     background-color: var(--primary-color);
     border-radius: 4px;
-    margin: 1vmax 1vmax;
+    margin: 1vmax 0.5vmax 0vmax 0.5vmax;
     font-weight: 600;
 }
 .highlight-links-link{
@@ -330,3 +330,39 @@ html,body{
     position: relative;
 }
 /*End about page*/
+
+/*Mobile stuff*/
+@media only screen and (max-width : 618px) {
+    #page-nav{
+        display:none;
+    }
+    #landing,#projects,#about{
+        width:100%;
+    }
+    .highlight-img{
+        width: 45%;
+        position: absolute;
+        left: 4%;
+        top: 24%;
+        border-radius: 6px;
+        height: 21vmax;
+    }
+    .highlight-links-wrapper{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        bottom: 5%;
+        width: 45%;
+        left: 3.5%;
+    }
+    .highlight-links-item{
+        display: inline-block;
+        padding: 1.5vmax 0;
+        background-color: var(--primary-color);
+        border-radius: 4px;
+        margin: 0.15vmax 0;
+        font-weight: 600;
+        width: 44%;
+    }
+}

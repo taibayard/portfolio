@@ -264,11 +264,11 @@ html,body{
     padding:0;
     margin:0;
     display: inline-block;
-    width: 46%;
+    width: 50%;
     position: absolute;
-    left: 6%;
+    right: 2%;
     bottom: 4%;
-    text-align: left;
+    text-align: right;
 }
 .highlight-tech-item{
     display: inline-block;
@@ -295,7 +295,7 @@ html,body{
     padding: 10%;
 }
 .highlight-summary-wrapper{width: 42%;display: inline-block;position: absolute;top: 18%;right: 4%;}
-.highlight-summary-label{color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 19vw;display: inline-block;font-size: 1.8vmax;}
+.highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 19vw;display: inline-block;font-size: 1.8vmax;}
 .highlight-summary-text{color: lightgrey;font-family: 'Roboto', sans-serif;letter-spacing: 1.2px;font-size: 1.5vmax;}
 /*End projects page*/
 /*Start about page*/

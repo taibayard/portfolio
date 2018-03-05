@@ -329,22 +329,14 @@ html,body{
     background-color:var(--primary-color);
     position: relative;
 }
-.about-headshot{
-    border-radius: 1em;
-    position: absolute;
-    left: 6vmax;
-    top: 6vmax;
-    width: 13vmax;
-    filter: contrast(108%);
-}
 .about-name{
     display:inline-block;
     font-family: 'Roboto', sans-serif;
     color: var(--yellow);
     letter-spacing: 1.5px;
-    font-size: 3.5vmax;
+    font-size: 4.5vmax;
     position: absolute;
-    left: 28vmax;
+    left: 23vmax;
     top: 4vmax;
     border-bottom: 3px solid var(--secondary-color);
     padding-bottom: 0.75vmax;
@@ -358,8 +350,8 @@ html,body{
     letter-spacing: 1.5px;
     font-size: 2vmax;
     position: absolute;
-    left: 28vmax;
-    top: 11vmax;
+    left: 23vmax;
+    top: 12.5vmax;
     border-bottom: 3px solid var(--secondary-color);
     padding-bottom: 0.75vmax;
     width: 42%;
@@ -427,14 +419,6 @@ html,body{
         height: 9vmax;
     }
     /*About page*/
-    .about-headshot{
-        border-radius: 1em;
-        position: absolute;
-        left: 11vmin;
-        top: 11vmin;
-        width: 30vmin;
-        filter: contrast(108%);
-    }
     .about-name{
         display: inline-block;
         font-family: 'Roboto', sans-serif;

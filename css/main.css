@@ -429,9 +429,9 @@ html,body{
         font-size: 6.5vmin;
         position: absolute;
         left: 49vmin;
-        top: 7vmax;
+        top: 13vmin;
         border-bottom: 3px solid var(--secondary-color);
-        padding-bottom: 0.75vmax;
+        padding-bottom: 1.75vmin;
         width: 42%;
         text-align: center;
     }
@@ -443,9 +443,9 @@ html,body{
         font-size: 3.5vmin;
         position: absolute;
         left: 49vmin;
-        top: 14vmax;
+        top: 26.5vmin;
         border-bottom: 3px solid var(--secondary-color);
-        padding-bottom: 0.75vmax;
+        padding-bottom: 1.75vmin;
         width: 42%;
         text-align: center;
     }

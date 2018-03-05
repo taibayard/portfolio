@@ -357,17 +357,18 @@ html,body{
     left: 6vmax;
     top: 6vmax;
     width: 13vmax;
+    filter: contrast(108%);
 }
 .about-name{
     display:inline-block;
     font-family: 'Roboto', sans-serif;
-    color: var(--white);
+    color: var(--yellow);
     letter-spacing: 1.5px;
     font-size: 3.5vmax;
     position: absolute;
-    left: 35%;
+    left: 28vmax;
     top: 4vmax;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid var(--secondary-color);
     padding-bottom: 0.75vmax;
     width: 42%;
     text-align: center;
@@ -379,9 +380,9 @@ html,body{
     letter-spacing: 1.5px;
     font-size: 2vmax;
     position: absolute;
-    left: 35%;
+    left: 28vmax;
     top: 11vmax;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid var(--secondary-color);
     padding-bottom: 0.75vmax;
     width: 42%;
     text-align: center;

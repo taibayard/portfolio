@@ -62,7 +62,7 @@ html,body{
 }
 .nav-item{
     text-align: center;
-    padding: 1.5em 0;
+    padding: 4vmin 0;
     font-size: 3vmax;
     font-weight: 800;
     color: lightgrey;
@@ -351,10 +351,15 @@ html,body{
     position: relative;
 }
 .about-headshot{
-    border-radius:15em;
+    border-radius: 1em;
     position: absolute;
     left: 6vmax;
     top: 6vmax;
+    width: 13vmax;
+}
+.about-name{
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
 }
 /*End about page*/
 

@@ -212,7 +212,7 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{height: 290vmin;width: 95%;position: relative;display: inline-block;}
+.project-highlight-wrapper{width: 95%;position: relative;display: inline-block;}
 .project-highlight{
     background-color: #968f8f1f;
     height: 49vmax;
@@ -365,7 +365,17 @@ html,body{
     width: 42%;
     text-align: center;
 }
+.about-tech-wrapper{
+
+}
+.about-workflow-wrapper{
+
+}
+.about-summary-wrapper{
+    
+}
 /*End about page*/
+
 
 /*Mobile stuff*/
 @media only screen and (max-width : 618px) {

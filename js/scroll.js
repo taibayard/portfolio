@@ -11,10 +11,13 @@
         const about_bottom = about.getBoundingClientRect().bottom;
         //checking bottom position
         if(landing_bottom>offset){
+            document.getElementsByClassName("first-nav-item")[0].style.visibility="hidden";
             setActive(0);
         }else if(projects_bottom > offset){
             setActive(1);
+            document.getElementsByClassName("first-nav-item")[0].style.visibility="visible";
         }else if(about_bottom > offset){
+            document.getElementsByClassName("first-nav-item")[0].style.visibility="visible";
             setActive(2);
         }
     })

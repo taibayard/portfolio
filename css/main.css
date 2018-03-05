@@ -37,6 +37,10 @@ html,body{
     margin: 2em 1em;
     word-wrap: break-word;
 }
+.first-nav-item{
+    visibility: hidden;
+    color:var(--secondary-color) !important;
+}
 #page-nav{
     position: fixed;
     top: 0;
@@ -59,7 +63,7 @@ html,body{
 .page-nav{
     list-style: none;
     padding:0;
-    margin:0;
+    margin: 7vmax 0 0 0;
 }
 .nav-item{
     text-align: center;

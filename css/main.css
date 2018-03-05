@@ -378,10 +378,9 @@ html,body{
     /*Landing page*/
     #landing-name{
         top: 47vmin;
+        font-size: 21vmin;
     }
-    #landing-job-title{
-        top: 74vmin;
-    }
+    #landing-job-title{top: 84vmin;font-size: 9vmin;}
     /*Projects page*/
     .highlight-img{
         width: 45%;

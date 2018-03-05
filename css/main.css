@@ -412,4 +412,42 @@ html,body{
         width: 9vmax;
         height: 9vmax;
     }
+    /*About page*/
+    .about-headshot{
+        border-radius: 1em;
+        position: absolute;
+        left: 11vmin;
+        top: 11vmin;
+        width: 30vmin;
+        filter: contrast(108%);
+    }
+    .about-name{
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        color: var(--yellow);
+        letter-spacing: 1.5px;
+        font-size: 6.5vmin;
+        position: absolute;
+        left: 49vmin;
+        top: 7vmax;
+        border-bottom: 3px solid var(--secondary-color);
+        padding-bottom: 0.75vmax;
+        width: 42%;
+        text-align: center;
+    }
+    .about-job-title{
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        color: var(--white);
+        letter-spacing: 1.5px;
+        font-size: 3.5vmin;
+        position: absolute;
+        left: 49vmin;
+        top: 14vmax;
+        border-bottom: 3px solid var(--secondary-color);
+        padding-bottom: 0.75vmax;
+        width: 42%;
+        text-align: center;
+    }
+
 }

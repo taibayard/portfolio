@@ -212,7 +212,7 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{height: 189vmax;width: 95%;position: relative;display: inline-block;}
+.project-highlight-wrapper{height: 290vmin;width: 95%;position: relative;display: inline-block;}
 .project-highlight{
     background-color: #968f8f1f;
     height: 49vmax;
@@ -220,8 +220,8 @@ html,body{
     text-align: center;
     position: relative;
     border-radius: 3px;
-    margin-bottom: 13vmax;
-    margin-top: 13vmax;
+    margin-bottom: 32vmin;
+    margin-top: 22vmin;
 }
 .highlight-name{
     color: var(--yellow);
@@ -382,6 +382,10 @@ html,body{
     }
     #landing-job-title{top: 84vmin;font-size: 9vmin;}
     /*Projects page*/
+    .project-highlight-wrapper{
+        height: 410vmin;
+    }
+    .project-highlight{margin-top: 20vmin;margin-bottom: 45vmin;}
     .highlight-img{
         width: 45%;
         position: absolute;

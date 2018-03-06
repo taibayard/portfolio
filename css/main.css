@@ -357,12 +357,19 @@ html,body{
     width: 42%;
     text-align: center;
 }
-.about-tech-wrapper{
-
-}
-.about-workflow-wrapper{display: inline-block;width: 86%;position: absolute;left: 5vmax;top: 17vmax;}
+.about-tech-wrapper{width: 54vmax;height: 36.3vmax;position: absolute;top: 31vmax;left: 13vmax;background-color: #394b58;border-radius: 6px;}
+.about-workflow-wrapper{display: inline-block;width: 86%;position: absolute;left: 5vmax;top: 70vmax;height: 45vmax;}
 .about-summary-wrapper{
-    
+    width: 93%;
+    height: 8vmax;
+    position: absolute;
+    top: 17vmax;
+    left: 3vmax;
+    font-size: 1.5vmax;
+    text-align: center;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
 }
 .workflow-list-wrapper{
     list-style:none;
@@ -375,6 +382,55 @@ html,body{
 .workflow-list-left{left: 0vmax;top: 1.2vmin;}
 .workflow-list-right{right: 2vmax;}
 .workflow-list-center{left: 25vmax;}
+.about-tech-list-wrapper{
+    margin:0;
+    padding:0;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+.about-tech-list-item{
+    font-size: 1.5vmax;
+    font-family: 'Oswald', sans-serif;
+    color: var(--white);
+    letter-spacing: 1.5px;
+    height: 6vmax;
+    position: relative;
+    border-bottom: 1px solid var(--primary-color);
+}
+.about-tech-label{
+    top: 1.6vmax;
+    position: absolute;
+    left: 1vmax;
+}
+.about-tech-skillpoint{
+    width: 3vmax;
+    height: 3vmax;
+    display: inline-block;
+    background-color: var(--secondary-color);
+    border-radius: 15em;
+    margin-left: 7.2vmax;
+    position: relative;
+    left: 10vmax;
+    top: 1.5vmax;
+}
+.about-tech-skill-level-wrapper{
+    list-style:none;
+    margin:0;
+    position: absolute;
+    padding:0;
+    top: 27vmax;
+    left: 23vmax;
+    width: 50vmax;
+}
+.about-tech-skill-level-item{
+    display:inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: var(--yellow);
+    letter-spacing: 1.5px;
+    font-size: 1.5vmax;
+    margin-left: 3.3vmax;
+}
 /*End about page*/
 
 
@@ -469,7 +525,11 @@ html,body{
         font-size: 3vmin;
     }
     .about-workflow-wrapper{
-        top: 27vmin;
+        top: 48vmin;
+        height: 155vmin;
+    }
+    .about-tech-skill-level-wrapper,.about-tech-wrapper{
+        display:none;
     }
 
 }

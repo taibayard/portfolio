@@ -101,7 +101,7 @@ html,body{
     font-size: 13vmin;
     position: absolute;
     width: 100%;
-    top: 24vmin;
+    top: 17vmin;
     letter-spacing: 2px;
 }
 #landing-job-title{
@@ -110,8 +110,19 @@ html,body{
     font-size: 6.5vmin;
     position: absolute;
     width: 100%;
-    top: 49vmin;
+    top: 42vmin;
     letter-spacing: 2px;
+}
+.landing-contact-wrapper{margin: 0;padding: 0;position: ABSOLUTE;bottom: 15vmax;width: 100%;}
+.landing-contact-item{
+    display: inline-block;
+    font-size: 2.5vmax;
+    margin: 0 4vmax;
+}
+.landing-contact-item a{
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    color: var(--white);
 }
 /*End landing page*/
 /*Start projects page*/
@@ -448,6 +459,12 @@ html,body{
         font-size: 21vmin;
     }
     #landing-job-title{top: 84vmin;font-size: 9vmin;}
+    .landing-contact-wrapper{
+        width:105%;
+    }
+    .landing-contact-item{
+        margin: 0 2vmin;
+    }
     /*Projects page*/
     .project-highlight-wrapper{
         height: 410vmin;

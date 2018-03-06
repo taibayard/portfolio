@@ -433,13 +433,13 @@ html,body{
         font-family: 'Roboto', sans-serif;
         color: var(--yellow);
         letter-spacing: 1.5px;
-        font-size: 7.5vmin;
+        font-size: 8.5vmin;
         position: absolute;
-        left: 30vmin;
-        top: 8vmin;
+        left: 22vmin;
+        top: 2vmin;
         border-bottom: 3px solid var(--secondary-color);
         padding-bottom: 1.75vmin;
-        width: 42%;
+        width: 55%;
         text-align: center;
     }
     .about-job-title{
@@ -449,11 +449,11 @@ html,body{
         letter-spacing: 1.5px;
         font-size: 3.5vmin;
         position: absolute;
-        left: 30vmin;
-        top: 24.5vmin;
+        left: 22vmin;
+        top: 19.5vmin;
         border-bottom: 3px solid var(--secondary-color);
         padding-bottom: 1.75vmin;
-        width: 42%;
+        width: 55%;
         text-align: center;
     }
     .workflow-list-left{

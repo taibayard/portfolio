@@ -455,12 +455,13 @@ html,body{
     }
     /*Landing page*/
     #landing-name{
-        top: 47vmin;
+        top: 37vmin;
         font-size: 21vmin;
     }
-    #landing-job-title{top: 84vmin;font-size: 9vmin;}
+    #landing-job-title{top: 74vmin;font-size: 9vmin;}
     .landing-contact-wrapper{
         width:105%;
+        bottom: 16vmin;
     }
     .landing-contact-item{
         margin: 0 2vmin;

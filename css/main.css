@@ -374,7 +374,7 @@ html,body{
     width: 93%;
     height: 8vmax;
     position: absolute;
-    top: 17vmax;
+    top: 19vmax;
     left: 3vmax;
     font-size: 1.5vmax;
     text-align: center;
@@ -543,7 +543,7 @@ html,body{
         font-size: 3vmin;
     }
     .about-workflow-wrapper{
-        top: 48vmin;
+        top: 50vmin;
         height: 155vmin;
     }
     .about-tech-skill-level-wrapper,.about-tech-wrapper{

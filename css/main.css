@@ -232,7 +232,7 @@ html,body{
     position: relative;
     border-radius: 3px;
     margin-bottom: 32vmin;
-    margin-top: 22vmin;
+    margin-top: 14vmin;
 }
 .highlight-name{
     color: var(--yellow);

@@ -337,7 +337,7 @@ html,body{
     font-size: 4.5vmax;
     position: absolute;
     left: 23vmax;
-    top: 4vmax;
+    top: 1vmax;
     border-bottom: 3px solid var(--secondary-color);
     padding-bottom: 0.75vmax;
     width: 42%;
@@ -351,7 +351,7 @@ html,body{
     font-size: 2vmax;
     position: absolute;
     left: 23vmax;
-    top: 12.5vmax;
+    top: 9.5vmax;
     border-bottom: 3px solid var(--secondary-color);
     padding-bottom: 0.75vmax;
     width: 42%;
@@ -360,12 +360,21 @@ html,body{
 .about-tech-wrapper{
 
 }
-.about-workflow-wrapper{
-
-}
+.about-workflow-wrapper{display: inline-block;width: 86%;position: absolute;left: 5vmax;top: 19vmax;}
 .about-summary-wrapper{
     
 }
+.workflow-list-wrapper{
+    list-style:none;
+    padding:0;
+    display: inline-block;
+    position: absolute;
+}
+.workflow-list-item{font-family: 'Oswald', sans-serif;color: var(--white);letter-spacing: 1.5px;text-align: center;margin: 0.5vmax 0;}
+.workflow-list-title{font-size: 3vmax;font-family: 'Roboto', sans-serif;color: var(--yellow);letter-spacing: 1.5px;text-align: center;font-weight: bold;margin: 2vmax 0 1vmax 0;}
+.workflow-list-left{left: 0vmax;top: 1.2vmin;}
+.workflow-list-right{right: 2vmax;}
+.workflow-list-center{left: 25vmax;}
 /*End about page*/
 
 
@@ -424,10 +433,10 @@ html,body{
         font-family: 'Roboto', sans-serif;
         color: var(--yellow);
         letter-spacing: 1.5px;
-        font-size: 6.5vmin;
+        font-size: 7.5vmin;
         position: absolute;
-        left: 49vmin;
-        top: 13vmin;
+        left: 30vmin;
+        top: 8vmin;
         border-bottom: 3px solid var(--secondary-color);
         padding-bottom: 1.75vmin;
         width: 42%;
@@ -440,12 +449,20 @@ html,body{
         letter-spacing: 1.5px;
         font-size: 3.5vmin;
         position: absolute;
-        left: 49vmin;
-        top: 26.5vmin;
+        left: 30vmin;
+        top: 24.5vmin;
         border-bottom: 3px solid var(--secondary-color);
         padding-bottom: 1.75vmin;
         width: 42%;
         text-align: center;
+    }
+    .workflow-list-left{
+    left: -1vmax;
+    }
+    .workflow-list-center{left: 22vmin;top: 109vmin;}
+    .workflow-list-right{
+        right: 13vmin;
+        top: 0;
     }
 
 }

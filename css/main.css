@@ -370,7 +370,7 @@ html,body{
     display: inline-block;
     position: absolute;
 }
-.workflow-list-item{font-family: 'Oswald', sans-serif;color: var(--white);letter-spacing: 1.5px;text-align: center;margin: 0.5vmax 0;}
+.workflow-list-item{font-family: 'Oswald', sans-serif;color: var(--white);letter-spacing: 1.5px;text-align: center;margin: 0.5vmax 0;font-size: 1.2vmax;}
 .workflow-list-title{font-size: 3vmax;font-family: 'Roboto', sans-serif;color: var(--yellow);letter-spacing: 1.5px;text-align: center;font-weight: bold;margin: 2vmax 0 1vmax 0;}
 .workflow-list-left{left: 0vmax;top: 1.2vmin;}
 .workflow-list-right{right: 2vmax;}
@@ -457,12 +457,19 @@ html,body{
         text-align: center;
     }
     .workflow-list-left{
-    left: -1vmax;
+        left: -1vmax;
     }
-    .workflow-list-center{left: 22vmin;top: 109vmin;}
+    .workflow-list-center{left: 22vmin;top: 87vmin;}
     .workflow-list-right{
         right: 13vmin;
         top: 0;
+    }
+    .workflow-list-title{font-size: 6vmin;}
+    .workflow-list-item{
+        font-size: 3vmin;
+    }
+    .about-workflow-wrapper{
+        top: 27vmin;
     }
 
 }

@@ -298,8 +298,8 @@ html,body{
 }
 .highlight-tech-item{
     display: inline-block;
-    width: 14vmin;
-    height: 14vmin;
+    width: 7vmax;
+    height: 7vmax;
     margin-bottom: 3%;
     margin-right: 3%;
 }
@@ -621,6 +621,10 @@ html,body{
     .contact-icon-wrapper{
         width: 9vmax;
         height: 9vmax;
+   }
+   .highlight-tech-item{
+        width: 14vmin;
+        height: 14vmin;
    }
     .highlight-frontend-tech-wrapper{
         width:100%;

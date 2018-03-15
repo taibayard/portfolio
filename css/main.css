@@ -119,6 +119,9 @@ html,body{
     font-size: 2.5vmax;
     margin: 0 4vmax;
 }
+.landing-contact-resume{
+    display:none;
+}
 .landing-contact-item a{
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
@@ -465,6 +468,9 @@ html,body{
     }
     .landing-contact-item{
         margin: 0 2vmin;
+    }
+    .landing-contact-resume{
+        display:inline-block;
     }
     /*Projects page*/
     .project-highlight-wrapper{

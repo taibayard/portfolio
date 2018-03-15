@@ -1,9 +1,9 @@
-(function(){
+(()=>{
     //Setting each section to a variable
     const landing = document.getElementById("landing");
     const projects = document.getElementById("projects");
     const about = document.getElementById("about");
-    window.addEventListener("scroll",function(){
+    window.addEventListener("scroll",()=>{
         const offset = 200; //Will be the "breakpoint" for setting the active tab
         //Getting position of the bottom (y axis)
         const landing_bottom = landing.getBoundingClientRect().bottom;
@@ -25,8 +25,8 @@
         }
     })
     //Sets the new active item. in this case an id was used to identify the current nav item.
-    function setActive(n){
+    const setActive = (n) => {
         document.getElementById("selected-nav-item").removeAttribute("id"); //The id of your " selected item "
         document.getElementsByClassName("nav-item")[n].setAttribute("id","selected-nav-item");
     }
-}())
+})();

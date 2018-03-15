@@ -12,12 +12,15 @@
         //checking bottom position
         if(landing_bottom>offset){
             document.getElementsByClassName("first-nav-item")[0].style.visibility="hidden";
+            document.getElementsByClassName("first-nav-item")[0].style.opacity="0";
             setActive(0);
         }else if(projects_bottom > offset){
             setActive(1);
             document.getElementsByClassName("first-nav-item")[0].style.visibility="visible";
+            document.getElementsByClassName("first-nav-item")[0].style.opacity="1";
         }else if(about_bottom > offset){
             document.getElementsByClassName("first-nav-item")[0].style.visibility="visible";
+            document.getElementsByClassName("first-nav-item")[0].style.opacity="1";
             setActive(2);
         }
     })

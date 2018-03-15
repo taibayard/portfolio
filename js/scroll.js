@@ -4,7 +4,7 @@
     const projects = document.getElementById("projects");
     const about = document.getElementById("about");
     window.addEventListener("scroll",()=>{
-        const offset = 200; //Will be the "breakpoint" for setting the active tab
+        const offset = 500; //Will be the "breakpoint" for setting the active tab
         //Getting position of the bottom (y axis)
         const landing_bottom = landing.getBoundingClientRect().bottom;
         const projects_bottom = projects.getBoundingClientRect().bottom;

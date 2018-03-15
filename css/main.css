@@ -1,6 +1,7 @@
 html,body{
     margin:0;
     background-color: var(--primary-color);
+    overflow-x: hidden;
 }
 :root {
     --primary-color:#2C4251;

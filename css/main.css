@@ -116,11 +116,11 @@ html,body{
     letter-spacing: 2px;
 }
 .landing-contact-wrapper{
-   margin: 0;
-   padding: 0;
-   position: ABSOLUTE;
-   bottom: 14vmin;
-   width: 100%;
+    margin: 0;
+    padding: 0;
+    position: ABSOLUTE;
+    bottom: 14vmin;
+    width: 100%;
 }
 .landing-contact-item{
     display: inline-block;
@@ -235,9 +235,9 @@ html,body{
     font-family: 'Roboto', sans-serif;
 }
 .project-highlight-wrapper{
-   width: 95%;
-   position: relative;
-   display: inline-block;
+    width: 95%;
+    position: relative;
+    display: inline-block;
 }
 .project-highlight{
     background-color: #968f8f1f;
@@ -321,29 +321,29 @@ html,body{
     padding: 10%;
 }
 .highlight-summary-wrapper{
-   width: 42%;
-   display: inline-block;
-   position: absolute;
-   top: 18%;
-   right: 4%;
-   height: fit-content;
+    width: 42%;
+    display: inline-block;
+    position: absolute;
+    top: 18%;
+    right: 4%;
+    height: fit-content;
 }
 .highlight-summary-label{
-   margin: 0;
-   color: var(--yellow);
-   letter-spacing: 3px;
-   font-family: 'Oswald', sans-serif;
-   border-bottom: 2px solid;
-   padding-bottom: 9px;
-   width: 19vw;
-   display: inline-block;
-   font-size: 1.8vmax;
+    margin: 0;
+    color: var(--yellow);
+    letter-spacing: 3px;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid;
+    padding-bottom: 9px;
+    width: 19vw;
+    display: inline-block;
+    font-size: 1.8vmax;
 }
 .highlight-summary-text{
-   color: lightgrey;
-   font-family: 'Roboto', sans-serif;
-   letter-spacing: 1.2px;
-   font-size: 1.5vmax;
+    color: lightgrey;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 1.5vmax;
 }
 .highlight-links-wrapper{
     margin:0;
@@ -407,21 +407,21 @@ html,body{
     text-align: center;
 }
 .about-tech-wrapper{
-   width: 54vmax;
-   height: 36.3vmax;
-   position: absolute;
-   top: 31vmax;
-   left: 13vmax;
-   background-color: #394b58;
-   border-radius: 6px;
+    width: 54vmax;
+    height: 36.3vmax;
+    position: absolute;
+    top: 31vmax;
+    left: 13vmax;
+    background-color: #394b58;
+    border-radius: 6px;
 }
 .about-workflow-wrapper{
-   display: inline-block;
-   width: 86%;
-   position: absolute;
-   left: 5vmax;
-   top: 70vmax;
-   height: 45vmax;
+    display: inline-block;
+    width: 86%;
+    position: absolute;
+    left: 5vmax;
+    top: 70vmax;
+    height: 45vmax;
 }
 .about-summary-wrapper{
     width: 93%;
@@ -442,31 +442,31 @@ html,body{
     position: absolute;
 }
 .workflow-list-item{
-   font-family: 'Oswald', sans-serif;
-   color: var(--white);
-   letter-spacing: 1.5px;
-   text-align: center;
-   margin: 0.5vmax 0;
-   font-size: 1.2vmax;
+    font-family: 'Oswald', sans-serif;
+    color: var(--white);
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 0.5vmax 0;
+    font-size: 1.2vmax;
 }
 .workflow-list-title{
-   font-size: 3vmax;
-   font-family: 'Roboto', sans-serif;
-   color: var(--yellow);
-   letter-spacing: 1.5px;
-   text-align: center;
-   font-weight: bold;
-   margin: 2vmax 0 1vmax 0;
+    font-size: 3vmax;
+    font-family: 'Roboto', sans-serif;
+    color: var(--yellow);
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-weight: bold;
+    margin: 2vmax 0 1vmax 0;
 }
 .workflow-list-left{
-   left: 0vmax;
-   top: 1.2vmin;
+    left: 0vmax;
+    top: 1.2vmin;
 }
 .workflow-list-right{
-   right: 2vmax;
+    right: 2vmax;
 }
 .workflow-list-center{
-   left: 25vmax;
+    left: 25vmax;
 }
 .about-tech-list-wrapper{
     margin:0;
@@ -532,8 +532,8 @@ html,body{
         font-size: 21vmin;
    }
     #landing-job-title{
-       top: 69vmin;
-       font-size: 9vmin;
+        top: 69vmin;
+        font-size: 9vmin;
    }
     .landing-contact-wrapper{
         width:105%;
@@ -552,22 +552,22 @@ html,body{
         margin: 11vmin 0;
         height: 161vmin;
    }
-   .highlight-img{
-    width: 92%;
-    position: absolute;
-    left: 4%;
-    top: 9%;
-    border-radius: 6px;
-    height: 55vmin;
-}
- .highlight-img-mobile{
-     width: 38%;
-     position: absolute;
-     left: 30%;
-     top: 8%;
-      border-radius: 6px;
-      height: 68vmin;
-    }
+    .highlight-img{
+        width: 92%;
+        position: absolute;
+        left: 4%;
+        top: 9%;
+        border-radius: 6px;
+        height: 55vmin;
+   }
+    .highlight-img-mobile{
+        width: 38%;
+        position: absolute;
+        left: 30%;
+        top: 8%;
+        border-radius: 6px;
+        height: 68vmin;
+   }
     .highlight-links-wrapper{
         margin: 0;
         padding: 0;
@@ -587,24 +587,44 @@ html,body{
         font-weight: 600;
         width: 26%;
    }
-   .highlight-summary-wrapper{width: 92%;display: inline-block;position: absolute;top: 60%;right: 4%;}
-.highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 40vmin;display: inline-block;font-size: 1.8vmax;}
-.highlight-summary-text{color: lightgrey;font-family: 'Roboto', sans-serif;letter-spacing: 1.2px;font-size: 1.5vmax;}
-
+    .highlight-summary-wrapper{
+       width: 92%;
+       display: inline-block;
+       position: absolute;
+       top: 60%;
+       right: 4%;
+   }
+    .highlight-summary-label{
+       margin: 0;
+       color: var(--yellow);
+       letter-spacing: 3px;
+       font-family: 'Oswald', sans-serif;
+       border-bottom: 2px solid;
+       padding-bottom: 9px;
+       width: 40vmin;
+       display: inline-block;
+       font-size: 1.8vmax;
+   }
+    .highlight-summary-text{
+       color: lightgrey;
+       font-family: 'Roboto', sans-serif;
+       letter-spacing: 1.2px;
+       font-size: 1.5vmax;
+   }
     .highlight-links-mobile{
         top: 52%;
    }
-   .highlight-tech-wrapper{
-       width: 100%;
-       bottom: 0;
+    .highlight-tech-wrapper{
+        width: 100%;
+        bottom: 0;
    }
     .contact-icon-wrapper{
         width: 9vmax;
         height: 9vmax;
    }
-   .highlight-frontend-tech-wrapper{
-       width:100%;
-       bottom:5%;
+    .highlight-frontend-tech-wrapper{
+        width:100%;
+        bottom:5%;
    }
    /*About page*/
     .about-name{
@@ -639,15 +659,15 @@ html,body{
         left: -1vmax;
    }
     .workflow-list-center{
-       left: 18vmin;
-       top: 90vmin;
+        left: 18vmin;
+        top: 90vmin;
    }
     .workflow-list-right{
         right: 13vmin;
         top: 0;
    }
     .workflow-list-title{
-       font-size: 6vmin;
+        font-size: 6vmin;
    }
     .workflow-list-item{
         font-size: 3vmin;

@@ -247,12 +247,12 @@ html,body{
     font-size: 2.2vmax;
 }
 .highlight-img-mobile{
-    width: 22%;
+    width: 38%;
     position: absolute;
-    left: 14%;
-    top: 19%;
+    left: 30%;
+    top: 8%;
     border-radius: 6px;
-    height: 26vmax;
+    height: 68vmin;
 }
 .highlight-img{
     width: 45%;
@@ -267,10 +267,10 @@ html,body{
     padding:0;
     margin:0;
     display: inline-block;
-    width: 50%;
+    width: 100%;
     position: absolute;
     right: 0;
-    bottom: 6%;
+    bottom: 1%;
     text-align: center;
 }
 .highlight-frontend-tech-wrapper{
@@ -278,16 +278,16 @@ html,body{
     padding: 0;
     margin: 0;
     display: inline-block;
-    width: 50%;
+    width: 100%;
     position: absolute;
     right: 0;
-    bottom: 13%;
+    bottom: 3%;
     text-align: center;
 }
 .highlight-tech-item{
     display: inline-block;
-    width: 7vw;
-    height: 7vw;
+    width: 14vmin;
+    height: 14vmin;
     margin-bottom: 3%;
     margin-right: 3%;
 }
@@ -308,8 +308,8 @@ html,body{
     height: 82%;
     padding: 10%;
 }
-.highlight-summary-wrapper{width: 42%;display: inline-block;position: absolute;top: 18%;right: 4%;}
-.highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 19vw;display: inline-block;font-size: 1.8vmax;}
+.highlight-summary-wrapper{width: 92%;display: inline-block;position: absolute;bottom: 27%;right: 4%;}
+.highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 40vmin;display: inline-block;font-size: 1.8vmax;}
 .highlight-summary-text{color: lightgrey;font-family: 'Roboto', sans-serif;letter-spacing: 1.2px;font-size: 1.5vmax;}
 .highlight-links-wrapper{
     margin:0;
@@ -318,6 +318,7 @@ html,body{
     position: absolute;
     bottom: 11%;
     width:45%;
+    height: fit-content;
     left: 3.5%;
 }
 .highlight-links-item{
@@ -475,23 +476,27 @@ html,body{
     /*Projects page*/
     .project-highlight-wrapper{
     }
-    .project-highlight{margin-top: 20vmin;margin-bottom: 45vmin;}
+    .project-highlight{
+    margin: 11vmin 0;
+    height: 161vmin;
+}
     .highlight-img{
-        width: 45%;
+        width: 92%;
         position: absolute;
         left: 4%;
-        top: 24%;
+        top: 9%;
         border-radius: 6px;
-        height: 21vmax;
+        height: 55vmin;
     }
     .highlight-links-wrapper{
         margin: 0;
         padding: 0;
         list-style: none;
         position: absolute;
-        bottom: 5%;
-        width: 45%;
+        top: 46%;
+        width: 93%;
         left: 3.5%;
+        bottom: 0;
     }
     .highlight-links-item{
         display: inline-block;
@@ -500,7 +505,10 @@ html,body{
         border-radius: 4px;
         margin: 0.15vmax 0;
         font-weight: 600;
-        width: 44%;
+        width: 26%;
+    }
+    .highlight-links-mobile{
+        top: 52%;
     }
     .contact-icon-wrapper{
         width: 9vmax;

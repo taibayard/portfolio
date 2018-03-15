@@ -48,7 +48,8 @@ html,body{
     right: 0;
     width: 20%;
     height: 100%;
-    /* background-color: #2c4251; */
+   /* background-color: #2c4251;
+    */
 }
 .page-nav-name{
     text-align: center;
@@ -57,7 +58,8 @@ html,body{
     font-size: 1.75em;
     font-weight: 800;
     color: var(--secondary-color);
-    /* background-color: var(--gunmetal); */
+   /* background-color: var(--gunmetal);
+    */
     margin: 0;
     padding: 4vh 0;
 }
@@ -86,7 +88,6 @@ html,body{
     color: var(--yellow);
 }
 /*End nav*/
-
 /*Start landing page*/
 #landing{
     height:100%;
@@ -114,7 +115,13 @@ html,body{
     top: 46vmin;
     letter-spacing: 2px;
 }
-.landing-contact-wrapper{margin: 0;padding: 0;position: ABSOLUTE;bottom: 14vmin;width: 100%;}
+.landing-contact-wrapper{
+   margin: 0;
+   padding: 0;
+   position: ABSOLUTE;
+   bottom: 14vmin;
+   width: 100%;
+}
 .landing-contact-item{
     display: inline-block;
     font-size: 2.5vmax;
@@ -227,7 +234,11 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{width: 95%;position: relative;display: inline-block;}
+.project-highlight-wrapper{
+   width: 95%;
+   position: relative;
+   display: inline-block;
+}
 .project-highlight{
     background-color: #968f8f1f;
     height: 49vmax;
@@ -287,8 +298,8 @@ html,body{
 }
 .highlight-tech-item{
     display: inline-block;
-    width: 7vw;
-    height: 7vw;
+    width: 14vmin;
+    height: 14vmin;
     margin-bottom: 3%;
     margin-right: 3%;
 }
@@ -309,9 +320,31 @@ html,body{
     height: 82%;
     padding: 10%;
 }
-.highlight-summary-wrapper{width: 42%;display: inline-block;position: absolute;top: 18%;right: 4%;}
-.highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 19vw;display: inline-block;font-size: 1.8vmax;}
-.highlight-summary-text{color: lightgrey;font-family: 'Roboto', sans-serif;letter-spacing: 1.2px;font-size: 1.5vmax;}
+.highlight-summary-wrapper{
+   width: 42%;
+   display: inline-block;
+   position: absolute;
+   top: 18%;
+   right: 4%;
+   height: fit-content;
+}
+.highlight-summary-label{
+   margin: 0;
+   color: var(--yellow);
+   letter-spacing: 3px;
+   font-family: 'Oswald', sans-serif;
+   border-bottom: 2px solid;
+   padding-bottom: 9px;
+   width: 19vw;
+   display: inline-block;
+   font-size: 1.8vmax;
+}
+.highlight-summary-text{
+   color: lightgrey;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 1.2px;
+   font-size: 1.5vmax;
+}
 .highlight-links-wrapper{
     margin:0;
     padding:0;
@@ -319,6 +352,7 @@ html,body{
     position: absolute;
     bottom: 11%;
     width:45%;
+    height: fit-content;
     left: 3.5%;
 }
 .highlight-links-item{
@@ -372,8 +406,23 @@ html,body{
     width: 42%;
     text-align: center;
 }
-.about-tech-wrapper{width: 54vmax;height: 36.3vmax;position: absolute;top: 31vmax;left: 13vmax;background-color: #394b58;border-radius: 6px;}
-.about-workflow-wrapper{display: inline-block;width: 86%;position: absolute;left: 5vmax;top: 70vmax;height: 45vmax;}
+.about-tech-wrapper{
+   width: 54vmax;
+   height: 36.3vmax;
+   position: absolute;
+   top: 31vmax;
+   left: 13vmax;
+   background-color: #394b58;
+   border-radius: 6px;
+}
+.about-workflow-wrapper{
+   display: inline-block;
+   width: 86%;
+   position: absolute;
+   left: 5vmax;
+   top: 70vmax;
+   height: 45vmax;
+}
 .about-summary-wrapper{
     width: 93%;
     height: 8vmax;
@@ -392,11 +441,33 @@ html,body{
     display: inline-block;
     position: absolute;
 }
-.workflow-list-item{font-family: 'Oswald', sans-serif;color: var(--white);letter-spacing: 1.5px;text-align: center;margin: 0.5vmax 0;font-size: 1.2vmax;}
-.workflow-list-title{font-size: 3vmax;font-family: 'Roboto', sans-serif;color: var(--yellow);letter-spacing: 1.5px;text-align: center;font-weight: bold;margin: 2vmax 0 1vmax 0;}
-.workflow-list-left{left: 0vmax;top: 1.2vmin;}
-.workflow-list-right{right: 2vmax;}
-.workflow-list-center{left: 25vmax;}
+.workflow-list-item{
+   font-family: 'Oswald', sans-serif;
+   color: var(--white);
+   letter-spacing: 1.5px;
+   text-align: center;
+   margin: 0.5vmax 0;
+   font-size: 1.2vmax;
+}
+.workflow-list-title{
+   font-size: 3vmax;
+   font-family: 'Roboto', sans-serif;
+   color: var(--yellow);
+   letter-spacing: 1.5px;
+   text-align: center;
+   font-weight: bold;
+   margin: 2vmax 0 1vmax 0;
+}
+.workflow-list-left{
+   left: 0vmax;
+   top: 1.2vmin;
+}
+.workflow-list-right{
+   right: 2vmax;
+}
+.workflow-list-center{
+   left: 25vmax;
+}
 .about-tech-list-wrapper{
     margin:0;
     padding:0;
@@ -447,90 +518,55 @@ html,body{
     margin-left: 3.3vmax;
 }
 /*End about page*/
-
-
 /*Mobile stuff*/
 @media only screen and (max-width : 700px) {
     #page-nav{
         display:none;
-    }
+   }
     #landing,#projects,#about{
         width:100%;
-    }
-    /*Landing page*/
+   }
+   /*Landing page*/
     #landing-name{
         top: 28vmin;
         font-size: 21vmin;
-    }
-    #landing-job-title{top: 69vmin;font-size: 9vmin;}
+   }
+    #landing-job-title{
+       top: 69vmin;
+       font-size: 9vmin;
+   }
     .landing-contact-wrapper{
         width:105%;
         bottom: 30vmin;
-    }
+   }
     .landing-contact-item{
         margin: 0 2vmin;
-    }
+   }
     .landing-contact-resume{
         display:inline-block;
-    }
-    /*Projects page*/
+   }
+   /*Projects page*/
     .project-highlight-wrapper{
-    }
+   }
     .project-highlight{
         margin: 11vmin 0;
         height: 161vmin;
-    }
-    .highlight-summary-wrapper {
-        width: 92%;
-        display: inline-block;
-        position: absolute;
-        bottom: 27%;
-        right: 4%;
-    }
-    .highlight-img{
-        width: 92%;
-        position: absolute;
-        left: 4%;
-        top: 9%;
-        border-radius: 6px;
-        height: 55vmin;
-    }
-    .highlight-img-mobile{
-        width: 38%;
-        position: absolute;
-        left: 30%;
-        top: 8%;
-        border-radius: 6px;
-        height: 68vmin;
-    }
-    .highlight-frontend-tech-wrapper {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: inline-block;
-        width: 100%;
-        position: absolute;
-        right: 0;
-        bottom: 3%;
-        text-align: center;
-    }
-    .highlight-summary-label {
-        margin: 0;
-        color: var(--yellow);
-        letter-spacing: 3px;
-        font-family: 'Oswald', sans-serif;
-        border-bottom: 2px solid;
-        padding-bottom: 9px;
-        width: 40vmin;
-        display: inline-block;
-        font-size: 1.8vmax;
-    }
-    .highlight-tech-item {
-        display: inline-block;
-        width: 14vmin;
-        height: 14vmin;
-        margin-bottom: 3%;
-        margin-right: 3%;
+   }
+   .highlight-img{
+    width: 92%;
+    position: absolute;
+    left: 4%;
+    top: 9%;
+    border-radius: 6px;
+    height: 55vmin;
+}
+ .highlight-img-mobile{
+     width: 38%;
+     position: absolute;
+     left: 30%;
+     top: 8%;
+      border-radius: 6px;
+      height: 68vmin;
     }
     .highlight-links-wrapper{
         margin: 0;
@@ -541,7 +577,7 @@ html,body{
         width: 93%;
         left: 3.5%;
         bottom: 0;
-    }
+   }
     .highlight-links-item{
         display: inline-block;
         padding: 1.5vmax 0;
@@ -550,15 +586,27 @@ html,body{
         margin: 0.15vmax 0;
         font-weight: 600;
         width: 26%;
-    }
+   }
+   .highlight-summary-wrapper{width: 92%;display: inline-block;position: absolute;top: 60%;right: 4%;}
+.highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 40vmin;display: inline-block;font-size: 1.8vmax;}
+.highlight-summary-text{color: lightgrey;font-family: 'Roboto', sans-serif;letter-spacing: 1.2px;font-size: 1.5vmax;}
+
     .highlight-links-mobile{
         top: 52%;
-    }
+   }
+   .highlight-tech-wrapper{
+       width: 100%;
+       bottom: 0;
+   }
     .contact-icon-wrapper{
         width: 9vmax;
         height: 9vmax;
-    }
-    /*About page*/
+   }
+   .highlight-frontend-tech-wrapper{
+       width:100%;
+       bottom:5%;
+   }
+   /*About page*/
     .about-name{
         display: inline-block;
         font-family: 'Roboto', sans-serif;
@@ -572,7 +620,7 @@ html,body{
         padding-bottom: 1.75vmin;
         width: 55%;
         text-align: center;
-    }
+   }
     .about-job-title{
         display: inline-block;
         font-family: 'Roboto', sans-serif;
@@ -586,38 +634,41 @@ html,body{
         padding-bottom: 1.75vmin;
         width: 55%;
         text-align: center;
-    }
+   }
     .workflow-list-left{
         left: -1vmax;
-    }
-    .workflow-list-center{left: 22vmin;top: 87vmin;}
+   }
+    .workflow-list-center{
+       left: 18vmin;
+       top: 90vmin;
+   }
     .workflow-list-right{
         right: 13vmin;
         top: 0;
-    }
-    .workflow-list-title{font-size: 6vmin;}
+   }
+    .workflow-list-title{
+       font-size: 6vmin;
+   }
     .workflow-list-item{
         font-size: 3vmin;
-    }
+   }
     .about-workflow-wrapper{
         top: 57vmin;
         height: 155vmin;
-    }
+   }
     .about-tech-skill-level-wrapper,.about-tech-wrapper{
         display:none;
-    }
+   }
     .about-summary-wrapper{
         top: 35vmin;
         height: 29vmin;
-    }
-
+   }
 }
-
 @media only screen and (max-width : 900px) {
     .about-tech-wrapper{
         left: 7vmin;
-    }
+   }
     .about-tech-skill-level-wrapper{
         left:17vmin;
-    }
+   }
 }

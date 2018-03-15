@@ -227,7 +227,7 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{width: 90%;position: relative;display: inline-block;}
+.project-highlight-wrapper{width: 95%;position: relative;display: inline-block;}
 .project-highlight{
     background-color: #968f8f1f;
     height: 49vmax;
@@ -248,12 +248,12 @@ html,body{
     font-size: 2.2vmax;
 }
 .highlight-img-mobile{
-    width: 38%;
+    width: 22%;
     position: absolute;
-    left: 30%;
-    top: 8%;
+    left: 14%;
+    top: 19%;
     border-radius: 6px;
-    height: 68vmin;
+    height: 26vmax;
 }
 .highlight-img{
     width: 45%;
@@ -268,10 +268,10 @@ html,body{
     padding:0;
     margin:0;
     display: inline-block;
-    width: 100%;
+    width: 50%;
     position: absolute;
     right: 0;
-    bottom: 1%;
+    bottom: 6%;
     text-align: center;
 }
 .highlight-frontend-tech-wrapper{
@@ -279,16 +279,16 @@ html,body{
     padding: 0;
     margin: 0;
     display: inline-block;
-    width: 100%;
+    width: 50%;
     position: absolute;
     right: 0;
-    bottom: 3%;
+    bottom: 13%;
     text-align: center;
 }
 .highlight-tech-item{
     display: inline-block;
-    width: 14vmin;
-    height: 14vmin;
+    width: 7vw;
+    height: 7vw;
     margin-bottom: 3%;
     margin-right: 3%;
 }
@@ -309,8 +309,8 @@ html,body{
     height: 82%;
     padding: 10%;
 }
-.highlight-summary-wrapper{width: 92%;display: inline-block;position: absolute;bottom: 27%;right: 4%;}
-.highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 40vmin;display: inline-block;font-size: 1.8vmax;}
+.highlight-summary-wrapper{width: 42%;display: inline-block;position: absolute;top: 18%;right: 4%;}
+.highlight-summary-label{margin: 0;color: var(--yellow);letter-spacing: 3px;font-family: 'Oswald', sans-serif;border-bottom: 2px solid;padding-bottom: 9px;width: 19vw;display: inline-block;font-size: 1.8vmax;}
 .highlight-summary-text{color: lightgrey;font-family: 'Roboto', sans-serif;letter-spacing: 1.2px;font-size: 1.5vmax;}
 .highlight-links-wrapper{
     margin:0;
@@ -319,7 +319,6 @@ html,body{
     position: absolute;
     bottom: 11%;
     width:45%;
-    height: fit-content;
     left: 3.5%;
 }
 .highlight-links-item{
@@ -478,9 +477,16 @@ html,body{
     .project-highlight-wrapper{
     }
     .project-highlight{
-    margin: 11vmin 0;
-    height: 161vmin;
-}
+        margin: 11vmin 0;
+        height: 161vmin;
+    }
+    .highlight-summary-wrapper {
+        width: 92%;
+        display: inline-block;
+        position: absolute;
+        bottom: 27%;
+        right: 4%;
+    }
     .highlight-img{
         width: 92%;
         position: absolute;
@@ -488,6 +494,43 @@ html,body{
         top: 9%;
         border-radius: 6px;
         height: 55vmin;
+    }
+    .highlight-img-mobile{
+        width: 38%;
+        position: absolute;
+        left: 30%;
+        top: 8%;
+        border-radius: 6px;
+        height: 68vmin;
+    }
+    .highlight-frontend-tech-wrapper {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 3%;
+        text-align: center;
+    }
+    .highlight-summary-label {
+        margin: 0;
+        color: var(--yellow);
+        letter-spacing: 3px;
+        font-family: 'Oswald', sans-serif;
+        border-bottom: 2px solid;
+        padding-bottom: 9px;
+        width: 40vmin;
+        display: inline-block;
+        font-size: 1.8vmax;
+    }
+    .highlight-tech-item {
+        display: inline-block;
+        width: 14vmin;
+        height: 14vmin;
+        margin-bottom: 3%;
+        margin-right: 3%;
     }
     .highlight-links-wrapper{
         margin: 0;

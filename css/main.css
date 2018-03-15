@@ -226,7 +226,7 @@ html,body{
     color: #e4dada;
     font-family: 'Roboto', sans-serif;
 }
-.project-highlight-wrapper{width: 95%;position: relative;display: inline-block;}
+.project-highlight-wrapper{width: 90%;position: relative;display: inline-block;}
 .project-highlight{
     background-color: #968f8f1f;
     height: 49vmax;

@@ -474,7 +474,6 @@ html,body{
     }
     /*Projects page*/
     .project-highlight-wrapper{
-        height: 460vmin;
     }
     .project-highlight{margin-top: 20vmin;margin-bottom: 45vmin;}
     .highlight-img{

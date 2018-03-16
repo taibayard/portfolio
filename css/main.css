@@ -325,7 +325,7 @@ html,body{
 .highlight-summary-wrapper{
     width: 42%;
     display: inline-block;
-    position: absolute;
+    /* position: absolute; */
     top: 18%;
     right: 4%;
     height: fit-content;
@@ -552,7 +552,7 @@ html,body{
    }
     .project-highlight{
         margin: 11vmin 0;
-        height: 161vmin;
+        height: 144vmin;
    }
     .highlight-img{
         width: 92%;
@@ -565,8 +565,8 @@ html,body{
     .highlight-img-mobile{
         width: 38%;
         position: absolute;
-        left: 30%;
-        top: 8%;
+        left: 31%;
+        top: 10%;
         border-radius: 6px;
         height: 68vmin;
    }
@@ -575,7 +575,7 @@ html,body{
         padding: 0;
         list-style: none;
         position: absolute;
-        top: 46%;
+        top: 50%;
         width: 93%;
         left: 3.5%;
         bottom: 0;
@@ -593,7 +593,7 @@ html,body{
        width: 92%;
        display: inline-block;
        position: absolute;
-       top: 60%;
+       top: 59%;
        right: 4%;
    }
     .highlight-summary-label{
@@ -614,7 +614,17 @@ html,body{
        font-size: 1.5vmax;
    }
     .highlight-links-mobile{
-        top: 52%;
+        top: 59%;
+   }
+   .highlight-summary-mobile{
+       top: 68%;
+   }
+   .highlight-tech-mobile{
+
+   }
+   .highlight-mobile-tech-item{
+       width: 12vmin !important;
+       height: 12vmin !important;
    }
     .highlight-tech-wrapper{
         width: 100%;

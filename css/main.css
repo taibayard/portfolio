@@ -1,7 +1,6 @@
 html,body{
     margin:0;
     background-color: var(--primary-color);
-    overflow-x: hidden;
 }
 :root {
     --primary-color:#2C4251;
@@ -522,6 +521,9 @@ html,body{
 /*End about page*/
 /*Mobile stuff*/
 @media only screen and (max-width : 700px) {
+    html,body{
+        overflow-x: hidden;
+    }
     #page-nav{
         display:none;
    }

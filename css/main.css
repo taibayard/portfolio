@@ -325,7 +325,7 @@ html,body{
 .highlight-summary-wrapper{
     width: 42%;
     display: inline-block;
-    /* position: absolute; */
+    position: absolute;
     top: 18%;
     right: 4%;
     height: fit-content;

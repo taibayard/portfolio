@@ -108,7 +108,7 @@ html,body{
     letter-spacing: 2px;
 }
 #landing-job-title{
-    color: var(--white);
+    color: var(--secondary-color);
     font-family: 'Oswald', sans-serif;
     font-size: 6.5vmin;
     position: absolute;

@@ -433,15 +433,14 @@ html,body{
     justify-content: center;
 }
 .about-summary-wrapper{
-    width: 88%;
     position: relative;
-    left: 3vmax;
+    left: 1vmax;
     font-size: 1.5vmax;
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     letter-spacing: 1.5px;
     text-align: center;
-    margin-top: 5vmax;
+    margin-top: 2vmax;
 }
 .workflow-list-wrapper{
     list-style:none;
@@ -680,7 +679,9 @@ html,body{
         display:none;
    }
     .about-summary-wrapper{
-        margin-top: 9vmin;
+        margin-top: 3vmin;
+        left: 0vmin;
+        letter-spacing: 1.2px;
    }
 }
 @media only screen and (max-width : 900px) {

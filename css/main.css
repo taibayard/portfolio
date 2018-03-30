@@ -143,7 +143,6 @@ html,body{
     width:80%;
     background-color:var(--primary-color);
     text-align: center;
-    padding-top: 2em;
 }
 .project-preview-wrapper{
     width: 98%;
@@ -239,6 +238,9 @@ html,body{
     width: 95%;
     position: relative;
     display: inline-block;
+}
+.project-highlight:first-child { 
+    margin-top:2vmax;
 }
 .project-highlight{
     background-color: #968f8f1f;

@@ -3,6 +3,27 @@
     const landing = document.getElementById("landing");
     const projects = document.getElementById("projects");
     const about = document.getElementById("about");
+    const smoothScrolling = () => {
+        $("#landing-nav").click(function() {
+            $('html,body').animate({
+                scrollTop: $("#landing").offset().top},
+                'slow');
+        });
+        $("#projects-nav").click(function() {
+            $('html,body').animate({
+                scrollTop: $("#projects").offset().top},
+                'slow');
+        });
+        $("#about-nav").click(function() {
+            $('html,body').animate({
+                scrollTop: $("#about").offset().top},
+                'slow');
+        });
+    }
+    const setActive = (n) => {
+        document.getElementById("selected-nav-item").removeAttribute("id");
+        document.getElementsByClassName("nav-item")[n].setAttribute("id","selected-nav-item");
+    }
     window.addEventListener("scroll",()=>{
         const offset = 500; //Will be the "breakpoint" for setting the active tab
         //Getting position of the bottom (y axis)
@@ -23,10 +44,6 @@
             document.getElementsByClassName("first-nav-item")[0].style.opacity="1";
             setActive(2);
         }
-    })
-    //Sets the new active item. in this case an id was used to identify the current nav item.
-    const setActive = (n) => {
-        document.getElementById("selected-nav-item").removeAttribute("id"); //The id of your " selected item "
-        document.getElementsByClassName("nav-item")[n].setAttribute("id","selected-nav-item");
-    }
+    });
+    smoothScrolling();
 })();

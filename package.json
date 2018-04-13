@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-v1",
+  "version": "1.0.0",
+  "description": "https://github.com/taihelsel/portfolio-v1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taihelsel/portfolio-v1.git"
+  },
+  "keywords": [],
+  "author": "Tai Helsel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taihelsel/portfolio-v1/issues"
+  },
+  "homepage": "https://taihelsel.github.io/portfolio-v1/"
+}
